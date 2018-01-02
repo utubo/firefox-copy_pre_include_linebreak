@@ -1,0 +1,17 @@
+{
+	"extensionName": {
+		"message": "Copy <pre> include line-break",
+		"description": "Name of the extension."
+	},
+	"extensionDescription": {
+		"message": "This add-on copy all text include line break when long press (3sec) pre tag.",
+		"description": "Description of the extension."
+	},
+	"confirmCopy": {
+		"message": "Are you sure you want to copy all text of <pre> ?"
+	},
+	"copied": {
+		"message": "Copied."
+	}
+}
+

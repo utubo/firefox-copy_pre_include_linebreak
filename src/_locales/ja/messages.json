@@ -1,0 +1,17 @@
+{
+	"extensionName": {
+		"message": "<pre>タグを改行付きでコピーする",
+		"description": "Name of the extension."
+	},
+	"extensionDescription": {
+		"message": "<pre>タグを３秒長押しでクリップボードにコピーします",
+		"description": "Description of the extension."
+	},
+	"confirmCopy": {
+		"message": "<pre>タグの内容をクリップボードコピーします"
+	},
+	"copied": {
+		"message": "コピーしました"
+	}
+}
+

@@ -29,9 +29,9 @@
 			target = target.parentNode;
 		}
 		if (!target) return;
-		if (!confirm('Are you sure you want copy all text of <PRE> ?')) return;
+		if (!confirm(chrome.i18n.getMessage('confirmCopy'))) return;
 		const str = getAllText(target);
-		alert('Copied.');
+		alert(chrome.i18n.getMessage('Copied'));
 	};
 
 	// START HERE ! ------
