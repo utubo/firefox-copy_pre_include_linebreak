@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Copy <pre> include line break",
+	"description": "Copy all text include line break when long press (3sec) <pre> tag.",
+	"version": "1.0",
+
+	"applications": {
+		"gecko": {
+			"id": "copy_pre_include_linebreak@utb.dip.jp",
+			"strict_min_version": "55.0a1"
+		}
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"js": ["content.js"]
+		}
+	],
+
+	"permissions": [
+		"clipboardWrite"
+	]
+}

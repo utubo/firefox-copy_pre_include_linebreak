@@ -1,0 +1,11 @@
+.copy-pre-include-linebreak-btn {
+	background: url(./icon64.png);
+	background-size: cover;
+	content: '';
+	display: inline-block;
+	float: right;
+	height: 2em;
+	margin-top: -2em;
+	width: 2em;
+	z-index: 99;
+}
