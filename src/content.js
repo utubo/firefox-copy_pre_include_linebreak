@@ -13,6 +13,7 @@
 	};
 
 	const getAllText = p => {
+		if (p.tagName === 'BR') return '\n';
 		const str = [];
 		for (let c = p.firstChild; !!c; c = c.nextSibling) {
 			switch (c.nodeType) {
@@ -31,6 +32,7 @@
 		if (!target) return;
 		if (!confirm(chrome.i18n.getMessage('confirmCopy'))) return;
 		const str = getAllText(target);
+		copyToClipbd(str);
 		alert(chrome.i18n.getMessage('Copied'));
 	};
 
